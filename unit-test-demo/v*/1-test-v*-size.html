@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test v* size</title>
+	<style type="text/css">
+	.header{
+		font-size: 20px;
+		background: #f10;
+	}
+	nav ul li{
+		font-size: 4vmax;
+		line-height: 6vmax;
+	}
+	.content1{
+		width: 50vw;
+		margin: 20vh;
+		background: #454;
+		font-size: 3rem;
+	}
+	.content2{
+		width: 20vmin;
+		height: 30vmin;
+		background: #ff0;
+		font-size: 0.5em;
+	}
+	span{
+		font-size: 4vw;
+		line-height: 4vh;
+		display: inline-block;
+		width: 40vw;
+		background: #f3e;
+	}
+	</style>
+</head>
+<body>
+<!-- 将viewPort的宽度设置为1000px，查看span的宽度为400px -->
+<div class="header">
+	<nav>
+		<ul>
+			<li>this is one</li>
+			<li>this is two</li>
+			<li>this is three</li>
+		</ul>
+	</nav>
+	<span>vw/vh</span>
+</div>
+<div class="content1">
+	test v* vw/vh
+	<div class="content2">
+		test v* vmin/vmax
+	</div>
+</div>
+</body>
+</html>
