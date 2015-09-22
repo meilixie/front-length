@@ -7,10 +7,10 @@
 
 单位(相对长度)|含义|兼容性|demo
 ---|---|---|---
-em|相对于父元素的字体大小（line-height中设置em是继承当前元素的font-size的倍数）||[test-em-size](file:///Users/xiemeili/Desktop/unit-test-demo/em/1-test-em-size.html)
-rem|font size of the root element（相对于根元素html的大小的单位）|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/rem.png) ![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ie.png)   ie9 和 ie10下面字体大小不支持rem，其他的支持| [test-root-is-what](file:///Users/xiemeili/Desktop/unit-test-demo/rem/1-test-root-is-what-for-rem.html)
-ex|font-size的x-height值，为小写字母x的高度，通常相当于font-size的一半，但是它的大小却与font-size和font-family有关|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ex.png)|[test-em-size](file:///Users/xiemeili/Desktop/unit-test-demo/ex/1-test-ex-em-diff.html)
-ch|width of the '0'|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ch.png) ![](http://7u2grt.com1.z0.glb.clouddn.com/unit/jianrongxing.png)|[test-ch-size](file:///Users/xiemeili/Desktop/unit-test-demo/ch/2-test-ch-size.html)
+em|相对于父元素的字体大小（line-height中设置em是继承当前元素的font-size的倍数）||[test-em-size](http://7u2grt.com1.z0.glb.clouddn.com/unit/1-test-em-size.html)
+rem|font size of the root element（相对于根元素html的大小的单位）|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/rem.png) ![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ie.png)   ie9 和 ie10下面字体大小不支持rem，其他的支持| [test-root-is-what](http://7u2grt.com1.z0.glb.clouddn.com/unit/1-test-root-is-what-for-rem.html)
+ex|font-size的x-height值，为小写字母x的高度，通常相当于font-size的一半，但是它的大小却与font-size和font-family有关|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ex.png)|[test-ex-em-diff](http://7u2grt.com1.z0.glb.clouddn.com/unit/1-test-ex-em-diff.html)
+ch|width of the '0'|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/ch.png) ![](http://7u2grt.com1.z0.glb.clouddn.com/unit/jianrongxing.png)|[test-ch-size](http://7u2grt.com1.z0.glb.clouddn.com/unit/2-test-ch-size.html)
 
 - - - 
 
@@ -32,7 +32,7 @@ px|屏幕的一个像素点
 
 单位(viewport)|含义|兼容性|demo
 ---|---|---|---
-vw|1% of viewport width|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/vw.png)| [test-v-size](file:///Users/xiemeili/Desktop/unit-test-demo/v*/1-test-v*-size.html)
+vw|1% of viewport width|![](http://7u2grt.com1.z0.glb.clouddn.com/unit/vw.png)| [test-v-size](http://7u2grt.com1.z0.glb.clouddn.com/unit/1-test-v*-size.html)
 vh|1% of viewport height| 
 vmin|min(1vw,1vh)| ![](http://7u2grt.com1.z0.glb.clouddn.com/unit/vmin.png) ie9下使用vmin要写成vm
 vmax|max(1vw,1vh)| ie10 / ie11不支持vmax
